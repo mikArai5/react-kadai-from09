@@ -1,0 +1,50 @@
+.content {
+    margin: 96px 128px;
+}
+
+h1 {
+    font-size: 24px !important;
+    font-weight: normal !important;
+}
+
+.boxes {
+    margin-top: 80px;
+    display: flex;
+}
+
+.box {
+    width: 300px;
+    min-height: 182px;
+    border-radius: 16px;
+    box-shadow: 0px 6px 16px #00000029;
+    padding: 24px;
+}
+
+.box:not(:first-child) {
+    margin-left: 62px;
+}
+
+.ttl {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: normal;
+    position: relative;
+    padding-left: 8px;
+    margin-top: 0;
+}
+
+.ttl::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 4px;
+    height: 20px;
+    background-color: #008CFF;
+    top: 18%;
+    left: 0%;
+}
+
+.txt {
+    font-size: 16px;
+    margin: 0;
+}
